@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0431600a-93b1-4b62-945b-28ad9adfd83e" name="Changes" comment="base">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Pass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Trading_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/User.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/signup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Login-Panel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0431600a-93b1-4b62-945b-28ad9adfd83e" name="Changes" comment="login first">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/SignUp-Panel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -119,12 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716900543651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login first">
+      <option name="closed" value="true" />
+      <created>1719870017003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719870017003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="base" />
-    <option name="LAST_COMMIT_MESSAGE" value="base" />
+    <MESSAGE value="login first" />
+    <option name="LAST_COMMIT_MESSAGE" value="login first" />
   </component>
 </project>
