@@ -57,6 +57,14 @@ public class SignUpController {
                 messageLabel.setText("Invalid email format.");
                 return;
             }
+            if (Database.userExistsByEmail(email)){
+                messageLabel.setText("Email already in use");
+                return;
+            }
+            if (Database.userExistsByUsername(username)){
+                messageLabel.setText("Username already in use");
+                return;
+            }
 
             // Check if passwords match
             if (!password.equals(repeatPassword)) {
@@ -72,13 +80,13 @@ public class SignUpController {
 
             // Check if username already exists
 
-            if (Database.userExists(username)) {
+            if (Database.userExistsByUsername(username)) {
                 messageLabel.setText("Username already exists.");
                 return;
             }
 
             // Add the user to the database
-            Database.addUser(username, password);
+            Database.addUser(email,username, password);
 
             messageLabel.setText("User registered successfully.");
         } else {
