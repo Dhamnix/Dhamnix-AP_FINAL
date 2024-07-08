@@ -24,7 +24,8 @@ public class LoginController {
 
     @FXML
     protected void onLoginButtonClick(ActionEvent e ) {
-
+        System.out.println("Username : " + usernameTextField.getText());
+        System.out.println("Password : " + passwordTextField.getText());
     }
     @FXML
     protected void onSignUpButtonClick(ActionEvent e) throws IOException {

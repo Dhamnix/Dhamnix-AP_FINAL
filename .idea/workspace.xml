@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0431600a-93b1-4b62-945b-28ad9adfd83e" name="Changes" comment="SignUp and Login">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/8541781_at_mail_email_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Login-Panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Login-Panel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/SignUpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/SignUp-Panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/SignUp-Panel.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719870906220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SignUp and Login">
+      <option name="closed" value="true" />
+      <created>1720442733998</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720442733998</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

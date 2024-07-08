@@ -17,9 +17,13 @@ public class SignUpController {
     @FXML
     Button SignUpButton ;
     @FXML
+    TextField emailTextField ;
+    @FXML
     TextField usernameTextField ;
     @FXML
     TextField passwordTextField ;
+    @FXML
+    TextField repeatPasswordTextField ;
 
 
     @FXML
@@ -32,5 +36,6 @@ public class SignUpController {
     }
     @FXML
     protected void onSignUpButtonClick(ActionEvent e)  {
+
     }
 }
