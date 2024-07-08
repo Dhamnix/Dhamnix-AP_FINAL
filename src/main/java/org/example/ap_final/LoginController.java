@@ -23,6 +23,8 @@ public class LoginController {
     TextField passwordTextField ;
     @FXML
     Label messageLabel ;
+    @FXML
+    Button forgetPasswordButton ;
 
 
     @FXML
@@ -51,6 +53,17 @@ public class LoginController {
     @FXML
     protected void onSignUpButtonClick(ActionEvent e) throws IOException {
         Parent backParent = FXMLLoader.load(getClass().getResource("SignUp-Panel.fxml"));
+        Scene backScene = new Scene(backParent);
+        Stage window = (Stage) SignUpButton.getScene().getWindow();
+        window.setScene(backScene);
+        window.show();
+    }
+
+
+
+    @FXML
+    protected void onforgetPasswordButtonClick(ActionEvent e) throws IOException {
+        Parent backParent = FXMLLoader.load(getClass().getResource("Forgot-Panel.fxml"));
         Scene backScene = new Scene(backParent);
         Stage window = (Stage) SignUpButton.getScene().getWindow();
         window.setScene(backScene);

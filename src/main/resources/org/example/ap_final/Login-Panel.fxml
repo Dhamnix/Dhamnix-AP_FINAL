@@ -58,6 +58,11 @@
                   <Font name="Lalezar-Regular" size="20.0" />
                </font>
             </Label>
+            <Button fx:id="forgetPasswordButton" contentDisplay="BOTTOM" layoutX="227.0" layoutY="619.0" mnemonicParsing="false" onAction="#onforgetPasswordButtonClick" prefHeight="23.0" prefWidth="85.0" style="-fx-background-color: null;" text="Forget Password" underline="true">
+               <font>
+                  <Font name="Lalezar-Regular" size="9.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
    </children>
