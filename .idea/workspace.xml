@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0431600a-93b1-4b62-945b-28ad9adfd83e" name="Changes" comment="SignUp and Login update2.0">
+    <list default="true" id="0431600a-93b1-4b62-945b-28ad9adfd83e" name="Changes" comment="SignUp and Login update2.1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Dashboard-Panel.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ap_final/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Login-Panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/Login-Panel.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/SignUp-Panel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/ap_final/SignUp-Panel.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -170,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720447057178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SignUp and Login update2.1">
+      <option name="closed" value="true" />
+      <created>1720465590678</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720465590678</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +191,7 @@
     <MESSAGE value="SignUp and Login" />
     <MESSAGE value="SignUp and Login update" />
     <MESSAGE value="SignUp and Login update2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="SignUp and Login update2.0" />
+    <MESSAGE value="SignUp and Login update2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignUp and Login update2.1" />
   </component>
 </project>

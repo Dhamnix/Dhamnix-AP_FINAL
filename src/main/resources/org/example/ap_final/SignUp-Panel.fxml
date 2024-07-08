@@ -75,7 +75,7 @@
                         <Font name="Lalezar-Regular" size="20.0" />
                      </font>
                   </PasswordField>
-                  <Label fx:id="messageLabel" layoutX="662.0" layoutY="83.0" prefHeight="41.0" prefWidth="320.0">
+                  <Label fx:id="messageLabel" alignment="CENTER" layoutX="631.0" layoutY="80.0" prefHeight="41.0" prefWidth="320.0">
                      <font>
                         <Font name="Lalezar-Regular" size="20.0" />
                      </font>
